@@ -1,0 +1,16 @@
+﻿<Directives>
+	<Application>
+		<Assembly Name="GLibSharp">
+			<Type Name="GLib.Object" MarshalStructure="Required All" />
+			<Type Name="GLib.Object+GObject_g_type_instanceAlign" MarshalStructure="Required All" />
+			<Type Name="GLib.Object+GObject_ref_countAlign" MarshalStructure="Required All" />
+			<Type Name="GLib.Object+GObject_qdataAlign" MarshalStructure="Required All" />
+
+		</Assembly>
+
+		<Assembly Name="GtkSharp">
+			<Type Name="Gtk.Window" MarshalStructure="Required All" />
+		</Assembly>
+
+	</Application>
+</Directives>
